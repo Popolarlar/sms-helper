@@ -1,0 +1,19 @@
+.CustomInput {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto 1fr;
+}
+
+.CustomInput-note {
+  font-size: medium;
+}
+
+.CustomInput-result {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.CustomInput-preview {
+  flex: 1;
+}
